@@ -45,19 +45,25 @@
 
     <!-- Formularios -->
     <form action="">
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre" id="name">
-        <br>
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="Apellido" id="lastname">
-        <label for="Edad">Ud. tiene</label>
-        <select name="Edad" id="age">
-            <option value="18">Menos de 18</option>
-            <option value="19">Entre 18 y 25</option>
-            <option value="25">Entre 25 y 40</option>
-            <option value="40">Mas de 40</option>
-        </select>
-
+        <fieldset>
+            <legend>Datos Personales</legend>
+                <label for="Sexo">Sexo: </label>
+                <br>
+                <input type="radio" name="Sexo" value="hombre">Hombre
+                <input type="radio" name="Sexo" value="mujer">Mujer
+                <br>
+                <label for="Nombre">Nombre: </label>
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <br>
+                <label for="Apellido">Apellido: </label>
+                <input type="text" name="Apellido" placeholder="Apellido">
+                <br>
+                <select name="Talle" id="1">
+                    <option value="S">Small</option>
+                    <option value="M">Medium</option>
+                    <option value="L">Large</option>
+                </select>
+        </fieldset>
     </form>
 </body>
 </html>
