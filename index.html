@@ -45,12 +45,19 @@
 
     <!-- Formularios -->
     <form action="">
-        <input type="text">
-        <input type="password">
-        <input type="mail">
-        <textarea name="Sugerencia" id="sug" cols="50" rows="20"></textarea>
-        <input type="reset" value="Borrar">
-        <input type="submit" value="Enviar">  
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" id="name">
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido" id="lastname">
+        <label for="Edad">Ud. tiene</label>
+        <select name="Edad" id="age">
+            <option value="18">Menos de 18</option>
+            <option value="19">Entre 18 y 25</option>
+            <option value="25">Entre 25 y 40</option>
+            <option value="40">Mas de 40</option>
+        </select>
+
     </form>
 </body>
 </html>
