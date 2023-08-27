@@ -1,5 +1,57 @@
 *{
     margin: 0;
     padding:0;
-    background-color: rgb(190, 236, 234);
+}
+
+.Menu{
+    margin: 30px;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.Menu li{
+    border: 2px solid black;
+    font-family: 'Codystar', cursive;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Twinkle Star', cursive;
+    text-align: center;
+    margin: 2px;
+    width: 20%;
+}
+
+.Menu li:hover{
+    background-color: rgb(86, 170, 170);
+    font-family: 'Codystar', cursive;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Twinkle Star', cursive;
+    font-size: larger;
+    text-align: center;
+}
+
+.tablita{
+    margin: 5px;
+    padding: 5px;
+}
+.tablita td{
+    border: solid 3px rgb(136, 211, 118);
+    padding: 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.tablita td:hover{
+    background-color: rgb(168, 230, 188);
+    font-size: larger;
+}
+
+.tablita th{
+    border: solid 3px rgb(224, 76, 76);
+    padding: 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tablita th:hover{
+    background-color: rgb(219, 134, 134);
+    font-size: larger;
 }
