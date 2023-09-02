@@ -18,6 +18,8 @@
     text-align: center;
     margin: 2px;
     width: 20%;
+    display: inline;
+    padding: 15px;
 }
 
 .Menu li:hover{
@@ -27,11 +29,14 @@
     font-family: 'Twinkle Star', cursive;
     font-size: larger;
     text-align: center;
+    display: inline;
 }
 
 .tablita{
     margin: 5px;
     padding: 5px;
+    width: 50%;
+    height: 50%;
 }
 .tablita td{
     border: solid 3px rgb(136, 211, 118);
@@ -54,4 +59,9 @@
 .tablita th:hover{
     background-color: rgb(219, 134, 134);
     font-size: larger;
+}
+
+a{
+    display: block;
+    margin-top: 50px 0px 50px 0px;
 }
