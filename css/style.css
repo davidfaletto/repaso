@@ -2,12 +2,66 @@
     margin: 0;
     padding:0;
 }
+/* Practicando Grids */
+.border{
+    border: 3px solid black;
+}
+#grilla{
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav productos propaganda"
+    "nav servicios propaganda"
+    "nav footer none";
+    grid-template-columns: 20% auto 25%;
+    grid-template-rows: 500px 200px 100px 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+section#productos{
+    grid-area: productos;
+}
+section#servicios{
+    grid-area: servicios;
+}
+aside{
+    grid-area: propaganda;
+}
+footer{
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Menu{
-    margin: 30px;
     list-style: none;
-    padding: 10px;
-    position: sticky;
+    display: grid;
+    grid-template-columns: 50%;
+    
 }
 
 .Menu li{
@@ -16,10 +70,7 @@
     font-family: 'Tilt Prism', cursive;
     font-family: 'Twinkle Star', cursive;
     text-align: center;
-    margin: 2px;
-    width: 20%;
-    display: inline-block;
-    position: relative;
+    background-color: bisque;
 }
 
 .Menu li:hover{
@@ -29,7 +80,6 @@
     font-family: 'Twinkle Star', cursive;
     font-size: larger;
     text-align: center;
-    display: inline-block;
 }
 
 .tablita{
